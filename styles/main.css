@@ -10,10 +10,15 @@ body {
 	font-family: arial;
 	background-color: #CCC;
 }
-h1 {
+#title {
 	width: 300px;
 	/* transform-origin: 50% 50%; */
 	animation-name: tada;
 	animation-duration: 1s;
+}
+#subTitle {
+	width: 300px;
+	animation: bounceInDown 1s;
+	animation-delay: .5s;
 }
 
