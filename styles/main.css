@@ -1,0 +1,19 @@
+/* My Styles */
+// @keyframes fadeIn {
+// 	0% {opacity: 0; transform: scale(.5); }
+// 	70% {opacity: 1; transform: scale(-1.2); }
+// 	100% {opacity: 1; transform: scale(1); }
+// }
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	background-color: #CCC;
+}
+h1 {
+	width: 300px;
+	/* transform-origin: 50% 50%; */
+	animation-name: tada;
+	animation-duration: 1s;
+}
+
